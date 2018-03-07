@@ -1,0 +1,27 @@
+Possible issues:
+****************
+
+- When running Maven Project the following notification appears on the console:
+
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project Exercise: Compilation failure
+[ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK?
+
+Workaround: 
+Go to Windows -> Preferences
+   in Java -> Installed JREs -> Point to the jdk directory instead of jre and click "Apply & Close"
+and try to run again.
+
+
+
+
+
+
+- When running Maven Project the following notification appears on the console:
+
+Tests in error: 
+Scenario: Going to www.seleniumhq.org Page         .Scenario: Going to www.seleniumhq.org Page         
+  Run 1: The driver executable does not exist: C:\Librerias\BrowserDrivers\chromedriver.exe
+
+Workaround:
+Create the Folder C:\Librerias\BrowserDrivers\ and check that chromedriver.exe is in there
+and try to run again.

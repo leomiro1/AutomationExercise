@@ -1,0 +1,13 @@
+Steps to pull this code to a local machine and import the project to your Eclipse IDE:
+**************************************************************************************
+
+- Use Git to pull the code in https://github.com/leomiro1/AutomationExercise.git to a local folder in your computer.
+- Open Eclipse IDE.
+- Go To File -> Import.
+- Select Git -> Projects from Git.
+- Select "Existing local repository".
+- Add the repository from the folder you chose to do the pull, The IDE will look for it and when found.
+  it will let you choose. Click "Finish".
+- Once you choose the repository click "Next".
+- See that the content of the repository is due with the content you want and select the option "Import existing Eclipse Projects" and click "Next".
+- Select the project of the repository that you want to import to Eclipse and click "Finish".
